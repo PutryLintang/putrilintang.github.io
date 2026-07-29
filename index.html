@@ -504,7 +504,17 @@ View Projects
 <i class="fas fa-moon"></i>
 
 </button>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector("#contactModal form");
 
+    form.addEventListener("submit", function () {
+        console.log("FORM SUBMIT BERJALAN");
+        alert("Form sedang dikirim...");
+    });
+});
+</script>
+    
 <script src="js/script.js"></script>
 
 </body>
