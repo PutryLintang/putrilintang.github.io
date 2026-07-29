@@ -409,77 +409,77 @@ View Projects
             and I'll get back to you as soon as possible.
         </p>
 
-        <form action="https://formsubmit.co/54ad6d8eb3cbd464267026c4b9d8c749"
-              method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST">
 
-            <!-- FormSubmit -->
+    <!-- Access Key -->
+    <input
+        type="hidden"
+        name="access_key"
+        value="208d1e91-4b3a-448f-acbe-d0232e079a76">
 
-            <input type="hidden"
-                   name="_captcha"
-                   value="false">
+    <!-- Redirect setelah berhasil -->
+    <input
+        type="hidden"
+        name="redirect"
+        value="https://putrylintang.github.io/thankyou.html">
 
-            <input type="hidden"
-                   name="_subject"
-                   value="New Portfolio Contact">
+    <!-- Anti Spam -->
+    <input
+        type="checkbox"
+        name="botcheck"
+        style="display:none">
 
-            <input type="hidden"
-                   name="_template"
-                   value="table">
+    <!-- Contact -->
 
-            <input type="hidden"
-                   name="_next"
-                   value="https://putrylintang.github.io/thankyou.html">
+    <input
+        type="text"
+        name="name"
+        placeholder="Full Name"
+        required>
 
-            <!-- Contact -->
+    <input
+        type="text"
+        name="company"
+        placeholder="Company Name">
 
-            <input
-                type="text"
-                name="name"
-                placeholder="Full Name"
-                required>
+    <input
+        type="text"
+        name="position"
+        placeholder="Job Title">
 
-            <input
-                type="text"
-                name="company"
-                placeholder="Company Name">
+    <input
+        type="email"
+        name="email"
+        placeholder="Business Email"
+        required>
 
-            <input
-                type="text"
-                name="position"
-                placeholder="Job Title">
+    <input
+        type="tel"
+        name="phone"
+        placeholder="Phone Number">
 
-            <input
-                type="email"
-                name="email"
-                placeholder="Business Email"
-                required>
+    <input
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        required>
 
-            <input
-                type="tel"
-                name="phone"
-                placeholder="Phone Number">
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Tell me about your project or opportunity..."
+        required></textarea>
 
-            <input
-                type="text"
-                name="subject"
-                placeholder="Subject"
-                required>
+    <button
+        type="submit"
+        class="btn">
 
-            <textarea
-                name="message"
-                rows="6"
-                placeholder="Tell me about your project or opportunity..."
-                required></textarea>
+        <i class="fas fa-paper-plane"></i>
+        Send Message
 
-            <button
-                type="submit"
-                class="btn">
-                <i class="fas fa-paper-plane"></i>
-                Send Message
+    </button>
 
-            </button>
-
-        </form>
+</form>
 
     </div>
 
