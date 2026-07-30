@@ -51,7 +51,7 @@ const projects = {
 
         title: "IT Helpdesk System",
 
-        image: "images/helpdesk.png"
+        image: "project/IT Helpdesk.png"
 
     }
 
